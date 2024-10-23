@@ -60,10 +60,10 @@ int main(void)
 		printf("星期一\n");
 		break;
 	case 5:
-		printf("星期三\n");
+		printf("星期二\n");
 		break;
 	case 6:
-		printf("星期四\n");
+		printf("星期三\n");
 		break;
 	}
 	return 0;
