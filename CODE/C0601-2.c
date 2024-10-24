@@ -15,5 +15,6 @@ int main(void)
 	int number;
 	scanf("%d", &number);
 	ten_to_two(number);
+	printf("\n");
 	return 0;
 }
