@@ -3,9 +3,12 @@
 
 void hanoi(int n, char a, char c, char b)
 {
+	if (n == 1) {
+		printf("%c --> %c\n", a, c);
+		return;
+	}
 	hanoi(n - 1, a, b, c);
 	hanoi(1, a, c, b);
-	printf("%c --> %c\n", a, c);
 	hanoi(n - 1, b, c, a);
 }
 
